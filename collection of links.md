@@ -15,3 +15,5 @@ https://github.com/sbilly/awesome-security/
 https://github.com/A3sal0n/CyberThreatHunting
 
 https://github.com/v2-dev/awesome-social-engineering
+
+https://guides.github.com/features/mastering-markdown/
