@@ -87,3 +87,17 @@ https://www.axelos.com/best-practice-solutions/itil/what-is-it-service-managemen
  services that meet the needs of the business. 
  IT service management is performed by IT service providers
  through an appropriate mix of people, process and information technology.”
+
+
+Alice, Bob, Trudy - known friends who want to communicate securely, while Trudy is threat actor.
+
+CIA triad: Confidentiality, Integrity and Availability - key security objectives.
+Confidentiality - preserving authorized restrictions information access control and preventing information disclosure. 
+Loss of confidentiality is the unauthorized disclosure of guarded information. 
+Integrity - guarding against improper information modification or destruction. Including information 
+non-repudiation and authenticity. Loss is the unauthorized modification or destruction of information.
+Availability - timely and reliable access to information. Loss of availability is the distruption of acces to an information system.
+
+
+
+
