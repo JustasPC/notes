@@ -1,0 +1,89 @@
+The security policies derived from the business policy.
+So the business policy describes: what we're going to do.
+Not how we're going to do it.
+This security policy describes how we're going to do it.
+Security enforcement point/security mechanisms  - technical implementation of that security policy.
+(Security policy implementation mechanism or delivery vehicle)
+
+Some examples of those are protocol suppression for example to turn off FTP.
+That security policy would 
+
+be no FTPs allow, 
+Business policy (No large-scale data movements)
+Security policy would be no FTPs allow
+Security enforcement point would be to disable FTP,
+
+
+Security policies -> (have technical implementation ) Security services ->
+-> ( s. p. controls/implemented by hard/software/processes ) security mechanisms (uses sec. services to enforce sec. policy)
+
+Security policy: 
+
+Security services: Enchanse security of data procesing systems using one or more security mechanisms.
+Authentication, 
+Access control, Data confidentiality,
+Data integrity, Non-repudiation, availability
+
+
+Security mechanisms:
+biometrics, certificates, passwords and keys, user permisions, vpns, malware detection, 
+secure channels, time limits, allarms, locks, backups, dmz, firewalls, proxies, single acces point, vp
+
+
+Specific security mechanisms:
+Cryptography, digital signatures, access controls,
+Tdata integrity, authentication exchange, traffic padding,
+routing control, notarization
+
+Pervasice security mechanisms:
+trusted functionality, security labes,event detection,
+security audit trails, security recovery
+
+
+Security services and mechanisms are closely related because a mechanism
+or combination of mechanisms are used to provide a service:
+Security services:
+    Authentication: assures recipient that the message is from the source that it claims to be from. 
+    Access Control: controls who can have access to resource under what condition
+    Availability: available to authorized entities for 24/7. 
+    Confidentiality: information is not made available to unauthorized individual
+    Integrity: assurance that the message is unaltered
+    Non-Repudiation: protection against denial of sending or receiving in the communication
+	
+	
+	
+ITIL (information technology Infrastructure library)
+ITIL is best practice framework describing how IT resources should be organized to deliver Business value.
+It models how to document processes, functions, and roles of IT Service Management (ITSM)
+
+
+Service Lifecycle phases:
+Service strategy - plant on how I will support my customers: Service portfolio financial, demand, business relationship management. 
+Service Design - designing new or editing existing services: service catalogue management, service level (SLA), Information security management, supplier management, Availability Management
+Service Transition - build or deploy changes: change management, project management, release and deployment management, service validation and testing, knowledge management
+Service Operations - steady state monitoring:event management, incident management, problem management
+Service continual improvements - continual service improvement: review metrics, identify opportunities, test and prioritize, implement improvements
+
+
+Key ITL service management Processes:
+Problem - (lifecycle of managing problems) cause of one or more incidents, root cause
+Change - manage changes (recognize, plan, assess impact, get approoval, shceduling, implement, closure) to baseline service assets and configuration items across the ITL Lifecycle
+Incident - (unplanned interruption to IT service) return state of service as fast as possible
+Log->Assign->Track->Categorize->Prioritize->Resolve->Close
+Event - detected occurence that has some significance to IT infra or delivery.
+Service level (SLA) = planing, coordinating, monitoring and reporting SLA. Review of achievements and meeting the requirements. Service's gradual improvement.
+Information Security Management - having and maintaining Information Security Policy and specific security policies that address each aspect of strategy, objectives and regulations.
+
+
+As you have heard in this module, Information Technology Infrastructure Library (ITIL) describes processes, procedures, tasks, and checklists which are not organization-specific nor technology-specific.
+You can learn more about the ITIL processes on Wikipedia:  https://en.wikipedia.org/wiki/ITIL#ITIL_4_Edition .
+You also can view the certification's that only individuals can achieve ion the Axelos' website:  https://www.axelos.com/welcome-to-itil-4
+
+What is IT Service Management?
+Depending on your organization or the organization you may find a future opportunity to explore, many times there is confusion between IT Service Management and ITIL.  
+Read through Axelos' explanation of how IT Service Management (ITSM) and ITIL are related.
+https://www.axelos.com/best-practice-solutions/itil/what-is-it-service-management
+ “The implementation and management of quality IT 
+ services that meet the needs of the business. 
+ IT service management is performed by IT service providers
+ through an appropriate mix of people, process and information technology.”
