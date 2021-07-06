@@ -98,7 +98,15 @@ Integrity - guarding against improper information modification or destruction. I
 non-repudiation and authenticity. Loss is the unauthorized modification or destruction of information.
 Availability - timely and reliable access to information. Loss of availability is the distruption of acces to an information system.
 
+http://web.eecs.utk.edu/~jysun/files/
 
-Authenticity - genuine and verifiable.
+Authenticity - genuine and verifiable. Whatyou know, what you have, and who you are.
 Accountability - mapping actions to an identity.
 
+Information Security Forum (ISF) is an independent, not-for-profit organization with membership by many fortune 500 companies.  ISF researches key issues in the present and future that will impact its members and shares this research to its members.  Some research is only available to members but ISF also shares with non-members publications and webinars.
+Threat Horizon reports are produced annually by the ISF for people who want to understand the cyber risks and their potential impacts in the future.
+Download and read the executive summary and report, Threat Horizon 2019:  Disruption. Distortion. Deterioration:  https://www.securityforum.org/research/threat-horizon-2019/
+This report covers 9 threat areas over 3 themes:
+    DISRUPTION: from an over reliance on fragile connectivity
+    DISTORTION: as trust in the integrity of information is lost
+    DETERIORATION: when controls are eroded by regulations and technology
