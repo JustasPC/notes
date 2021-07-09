@@ -110,3 +110,191 @@ This report covers 9 threat areas over 3 themes:
     DISRUPTION: from an over reliance on fragile connectivity
     DISTORTION: as trust in the integrity of information is lost
     DETERIORATION: when controls are eroded by regulations and technology
+
+
+physical access control methods: perimetral, building, work areas, servers and networks.
+Technical uses of physical security controls: ID, badges, lists and logs, door access control systems, tokens,
+proximity sernsors, tramps, physical block, cameras.
+logical access control methods: ACL (from Routers), GPO (policies), Accounts (centralized, descentralized, expiration)
+
+Monitoring:
+IDS - intrusion detection system
+IPS - intrusion detection and prevention connection kill system
+Honeypot - trap for malicious actor
+Sniffers - packet analyzers
+
+BYOD technical controls:
+Strict policy, use of technical control MDM, Training, Strong perimetral controls.
+
+
+Open Web Application Security Project (OWASP):
+Injection
+Broken Authentication and session management
+Cross site scripting
+Insecure direct object references
+Security misconfiguration
+Sensitive data exposure
+Missing function level access control
+Cross site request forgery
+Using known vulnerable components
+Unvalidated Redirects and Forwards
+
+https://www.techotopia.com/index.php/Mandatory,_Discretionary,_Role_and_Rule_Based_Access_Control
+
+
+Windows User (GUI interaction) mode and Kernel mode (OS technology, services)
+User mode: application starts a process (private virtual adress space, private hande rable) Each app runs in issolation.
+Kernel mode: all code from kernel rus in single virtual address space. If driver writes data to wrong place, kernel or other driver data will be compromised.
+If cernel mode driver crashes, the OS crashes too.
+
+File systems (enables application to store and retrieve files on storage devices. Files are placed in hierarchical structure. Naming conventions. 
+File is unit of data in file system
+Directory is a hirarchical collection of directorues and files.
+NTFS and FAT
+-NTFS (new technology file system) 1993
+-FATxx (file allocation table) since 80's. Number tells block size in bits. FAT16, FAT32. Used mainly for remote storage devices under 32GB capacity.
+
+Directory structure:
+Different bit systems different amount of memory that can be addressed for apps.
+Programs - progam files
+ProgramData - every users programs data location
+User dir - for user profile
+App Data - program data specific to user
+Windows - windows system directory (System, System32, SysWow64(32-bit DLLs)for DLL files)
+
+
+Shortcuts and commands:
+
+Ctrl+Z roll back
+Ctrl+W close windows
+Ctrl+A select everything
+Alt+Tab switch tabs
+Alt+F4 shuts active app.
+Win+D show/hide desktop
+Wind+arrow switch active window
+WIn+tab task view
+Shift+TAB mover back and forward through options
+F2 rename file
+F5 refresh page
+Win+L lock computer
+Win+I windows settings
+Win+S search bar
+Win+PrtnScn whole screen capture and saves png file
+Alt+PrtnScrn partial screen capture does not save file
+Ctrl shift esc - same as ctr alt delete - task manager
+Win+C cortana
+Win+Ctrl+D virtual desktops
+Win+X hidden menu
+
+
+
+Linux
+Open source operating system
+Components: Shell and kernel
+Kernel: core of OS, interacts with hardware. Manages system, user input/output, processes, files, memory and devices.
+Shell is used to interact with kernel. User input.
+
+File system:
+Files represented with "-" in cmd line.
+Directory is special type of file. Holds info about other files. "d" in CLI.
+
+/Root partition. Only root user has write privileges here. /root is not same as /./root which is home directory of root.
+/bin contains binary executables. ls, cat, so on...
+/sbin system maintenance executables. iptables, ifconfig, reboot.
+/etc  config files of programs.
+/var variable files, logs, changing files
+/tmp temp files
+/home users dir, personal files.
+/boot boot loader files.
+
+
+Run levels: 
+0 Halt shuts down all services and system not rebooted
+1 Single user, used for maintenance, no network capabilities.
+2 Multi user, for maintenance and sys testing
+3 Multiuser Non GUI mode for server systems
+4 custom mode used by SysAdmins
+5 Graphical GUI login with run level 3
+6 Reboot - shuts down all services when sys is being rebooted
+
+
+Basic commands:
+
+cd - change directory
+cp - copies files or dirs
+mv - moves files or directories
+ls - list information
+df - display sys disk space
+kill - kill process
+rm - delete file or dir
+rmdir - deletes empty dir.
+cat - display content of file or combine files.
+mkdir - create dirs
+ifconfig - ip information, network configuration
+locate - quick search of files, updated by updatedb
+tail - view end of text file, 10 lines
+less - view large files part
+more - display text, on screen at a  time
+nano - basic text editor.
+cmdnod - changes privilefes for file or dir.
+
+
+Permisions and owners:
+Three groups: user, group, everybody
+read 4 (100), write 2 (010), execute 1(001)
+
+Change permissions:
+chmod <permision> filename
+Chomod u=rw, g=r,o=r <filename>
+chown changes owner adn group owner of a file 
+
+
+MAC OS
+About my MAC info 
+
+Virtualization:
+Allows to create multiple simulated enviroments or dedicated resources from a singgle, physical hardware system
+Hypervisor/host of virtual system. Can be installed as app or system.
+Virtual machine / Guest. Functions as single data file. VM does not interact directly with the host machine. Physical hardware is assigned to VMs.
+
+Cloud enviroment for businees service catalogs. 
+Virtualization management->Service delivery automation->Business service catalog-> real time monitoring->Dynaic capacity optimization.
+Cloud deployment:
+Consolidate
+Virtualize
+Automate
+Migrate
+Integrate
+Optimize
+
+
+Cloud computing - on demand availability of system resources.
+Positives:
+Choise and agility
+Encapsulated change management
+Scale and cost
+
+
+Negatives:
+Security
+Lock-In
+Lack of control
+Reliability
+
+
+Types of cloud:
+Public / Tenant
+Private 
+Hybrid
+
+Services or models:
+SaaS - software as a service MS365, netflix
+Paas - platform as a service (midleware, database, runtimes, dev tooling)(enviroment)
+IaaS - servers, networking, data center fabric, storage.
+
+Cloud computing benefits: flexibility, effociency, strategic value.
+
+Cloud sercurity components: Disaster recovery, business continuity planning, governance, cpmpliance, data security,availability, identity and access management.
+
+Cloud governance process/management aligned with services and it aligned with organization :
+portfolio, service integration, team, function, management,
