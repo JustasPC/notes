@@ -1,1 +1,31 @@
+SIEM: system or security information event management system is data aggregator, search and reporting system.
+Gathers data from network, consolidates and makes data human accessible for analysis. Can be rule based or correlation based. 
+
+
+Architecture:
+
+Event collector: collects, normalizes raw data, bundles or coalesces identical events. Can have bandwidth limiters.
+Event processor: processes events with custom rule engines. Events might be collected from one or more collector components. Stores  and correlates with other events.  
+Flow collector: collects, normalizes raw flow data from span or taps, might be received form external sources in forms as netflow, sflow, jflow. 
+Flow processor: removes duplicates, assymetric recombination (can recognize flows from each side), license throttling, might forward flow data. 
+
+
+
+Qradar collects logs:
+Event - log of a specific action.
+Flow - record of the network activity between two hosts.
+Normalization  (collector)- normalization involves turning raw data into format which SIEM can use. Parse raw data and prapare the data to display readable info. Allows indexing.
+Correlation (processor)- with other events or information according context. 
+Coalescing (collector)- events are parsed and coalesced based on common attributes. (3+1) Starts after 3 events with same properties (QID, Source IP, Destination IP, Destination port, Username).
+Aggregation - 
+Reporting (console) - 
+Throttling - events that are coming in might be throttled or might be queued until I go under my license threshold, or in the event of too many at one time, 
+they may actually be dropped and put directly into storage or just dropped all together, it all depends on the system and how it's monitored.
+ 
+
+Asset database:
+Asset - object in database. Device or user.
+Information from logs goes to asset database.
+Information from vulnerabilities goes to asset database.
+Information from flows goes to database.
 
