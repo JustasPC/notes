@@ -29,3 +29,13 @@ Information from logs goes to asset database.
 Information from vulnerabilities goes to asset database.
 Information from flows goes to database.
 
+Nflow: src/dst ip, ports, protocol.
+Qflows: 64 bytes.
+
+Vulnerabilities:
+Gets data from Bigfix.
+Gets data from National vulnerabity database.
+
+
+Rules:
+Risk manager: reads config files from routers, FW, switches.
